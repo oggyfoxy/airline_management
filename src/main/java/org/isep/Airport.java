@@ -9,7 +9,7 @@ public class Airport {
     private String Description;
     private List<Flight> flights;
 
-    private static List<Airport> airportList = new ArrayList<>();
+    static List<Airport> airportList = new ArrayList<>();
     public Airport(String Name, String City, String Description) {
         this.Name = Name;
         this.City = City;

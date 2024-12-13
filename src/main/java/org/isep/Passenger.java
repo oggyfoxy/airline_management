@@ -6,7 +6,7 @@ import java.util.List;
 public class Passenger extends Person {
     private String Passport;
     private List<Book> reservations;
-    private static List<Passenger> passengerList = new ArrayList<>();
+    private static final List<Passenger> passengerList = new ArrayList<>();
 
     public Passenger(int ID, String Name, String Address, String Contact, String Passport) {
         super(ID, Name, Address, Contact);
@@ -14,6 +14,9 @@ public class Passenger extends Person {
         this.reservations = new ArrayList<>();
     }
 
+    public static List<Passenger> getPassengerList() {
+        return passengerList;
+    }
     public String getPassport() { return Passport; }
     public void setPassport(String Passport) { this.Passport = Passport; }
 

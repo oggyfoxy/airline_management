@@ -1,0 +1,3 @@
+FlightNumber,Origin,Destination,DepartureTime,ArrivalTime,Status
+777,isep airport,Notre Dame des Champs airport,2024-12-13 23:33,2024-12-13 23:33,Scheduled
+303,isep airport,Stanford airport,2024-12-13 23:33,2024-12-13 23:33,Scheduled

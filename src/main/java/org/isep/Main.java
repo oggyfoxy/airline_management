@@ -47,5 +47,25 @@ public class Main {
         passenger1.bookFlight(flight1, 499.99); // Ticket price $499
         passenger2.bookFlight(flight2, 759.99); // Ticket price: $759
         Report.generateReport();
+
+        FileHandler.saveFlightsToFile("flights.csv");
+        FileHandler.savePassengersToFile("passengers.csv");
+
+        FileHandler.loadFlightsFromFile("flights.csv");
+
+
+        // BONUS: databases with JDBC API and mysql
+        DatabaseHandler.initializeDatabase(); // Create tables
+
+
+        for (Airport airport : Airport.airportList) {
+            DatabaseHandler.saveAirport(airport);
+        }
+
+        for (Flight flight : Flight.flightList) {
+            DatabaseHandler.saveFlight(flight);
+        }
+
+        DatabaseHandler.loadFlights();
     }
 }

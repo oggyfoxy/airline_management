@@ -1,5 +1,6 @@
 package org.isep;
 
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -129,6 +130,7 @@ public class Flight {
         }
         return null;
     }
+
 
     public static void deleteFlight(int flightNumber) {
         flightList.removeIf(f -> f.getFlightNumber() == flightNumber);

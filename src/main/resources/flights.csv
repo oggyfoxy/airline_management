@@ -1,0 +1,18 @@
+// only thing i generated using a tool
+
+FlightNumber,Origin,Destination,DepartureTime,ArrivalTime,Status
+101,Charles de Gaulle Airport Paris,Nice Côte d'Azur Airport,2024-12-15 08:30,2024-12-15 10:00,Scheduled
+102,Lyon-Saint Exupéry Airport,Marseille Provence Airport,2024-12-15 09:45,2024-12-15 10:45,Scheduled
+103,Paris Orly Airport,Toulouse-Blagnac Airport,2024-12-15 11:20,2024-12-15 12:40,Scheduled
+104,Bordeaux-Mérignac Airport,Strasbourg Airport,2024-12-15 13:15,2024-12-15 15:00,Scheduled
+105,Nantes Atlantique Airport,Montpellier-Méditerranée Airport,2024-12-15 14:30,2024-12-15 16:00,Scheduled
+106,Charles de Gaulle Airport Paris,Lyon-Saint Exupéry Airport,2024-12-16 07:30,2024-12-16 08:45,Scheduled
+107,Nice Côte d'Azur Airport,Paris Orly Airport,2024-12-16 09:00,2024-12-16 10:30,Scheduled
+108,Marseille Provence Airport,Bordeaux-Mérignac Airport,2024-12-16 11:15,2024-12-16 12:45,Scheduled
+109,Toulouse-Blagnac Airport,Nantes Atlantique Airport,2024-12-16 13:45,2024-12-16 15:15,Scheduled
+110,Strasbourg Airport,Charles de Gaulle Airport Paris,2024-12-16 16:00,2024-12-16 17:30,Scheduled
+111,Montpellier-Méditerranée Airport,Nice Côte d'Azur Airport,2024-12-17 08:00,2024-12-17 09:30,Scheduled
+112,Lyon-Saint Exupéry Airport,Toulouse-Blagnac Airport,2024-12-17 10:30,2024-12-17 11:45,Scheduled
+113,Paris Orly Airport,Marseille Provence Airport,2024-12-17 12:15,2024-12-17 13:45,Scheduled
+114,Bordeaux-Mérignac Airport,Montpellier-Méditerranée Airport,2024-12-17 14:30,2024-12-17 16:00,Scheduled
+115,Nantes Atlantique Airport,Strasbourg Airport,2024-12-17 16:45,2024-12-17 18:30,Scheduled
